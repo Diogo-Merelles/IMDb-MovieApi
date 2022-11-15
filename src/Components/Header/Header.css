@@ -1,0 +1,48 @@
+.headerDesign {
+    height: 12vh;
+    width: 100vw;
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.linkDesign {
+    font-weight: bold;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.linkDesign:hover {
+
+    color: black;
+
+    transition: 0.5s;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5em;
+    color: black;
+}
+
+.appName{
+    font-size: xx-large;
+    font-weight:500;
+    margin-left: 1.5em;
+}
+

@@ -1,0 +1,52 @@
+.homePage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: whitesmoke; 
+
+}
+
+.movieSmallImage{
+    width: 10em; 
+}
+
+.movieCard{
+    width: 12em;
+    cursor:pointer;
+    margin-top: 1em;
+}
+
+.movieSmallImage:hover {
+    transition: 0.5s;
+    width: 11em;
+}
+
+
+.leftSide{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke; 
+    overflow: scroll;
+    margin-top: 2em;
+
+}
+
+.rightSide{
+    width: 35vw;
+    background-color: whitesmoke;
+    padding-bottom: 1em; 
+}
+
+.homeLoadingDesign {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 800;
+}

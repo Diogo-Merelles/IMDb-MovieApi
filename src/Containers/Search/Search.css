@@ -1,0 +1,56 @@
+
+.searchPage {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke; 
+
+}
+
+.searchInput {
+    margin-top: 3em;
+}
+
+.leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searchResults {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke; 
+    overflow: scroll;
+}
+
+.rightside {
+    display: flex;
+
+}
+
+.movieSmallImage{
+    width: 10em; 
+}
+
+.movieCard{
+    width: 12em;
+    margin-top: 0.5em;
+    cursor:pointer;
+}
+
+
+.clickMovie {
+    display: flex;
+    width: 30vw;
+    height: 60vh;
+}
+
+.showmovies {
+    display: flex;
+    height: 100vh;
+}

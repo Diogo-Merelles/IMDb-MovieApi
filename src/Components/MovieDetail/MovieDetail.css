@@ -1,0 +1,39 @@
+.detailPic{
+    width: 18em;
+}
+
+.movieDetailDesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dateAndRating{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.movieOverview{
+    font-size: medium;
+    font-style: italic;
+    margin-left: 2.0em;
+    margin-right: 2.0em;
+    text-align: justify;
+}
+
+.star{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
