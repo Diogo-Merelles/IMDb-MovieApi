@@ -10,7 +10,7 @@ const Header = () => {
   return (
      <div className="headerDesign">
             <div className="leftside">
-            <div className="appName">Movie API</div>
+            <div className="appName" onClick={()=>setTimeout(()=>{navigate("/")},500)}>Movie API</div>
             </div>
             <div className="rightside">
             <div className="linkDesign" onClick={()=>setTimeout(()=>{navigate("/")},500)}>Popular Movies</div>

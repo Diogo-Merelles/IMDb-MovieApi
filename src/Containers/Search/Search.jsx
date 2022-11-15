@@ -8,12 +8,21 @@ const Search = () => {
   const [searchInput, setSearchInput] = useState("");
   const [selected, setSelected] = useState("");
 
-  const handleSearchInput = (e) => {
+  const handleSearchInput = (event) => {
     setSearchInput((prevState) => ({
       ...prevState,
-      [e.target.name]: e.target.value,
+      [event.target.name]: event.target.value,
     }));
   };
+
+  // -- Trying to show the same popular moview in both views, but blocks the search
+  // useEffect(() => {
+  //   async function fecthData() {
+  //     let response = await getPopularMovies();
+  //     setMovies(response.data.results);
+  //   }
+  //   fecthData();
+  // },[movies]);
 
   useEffect(() => {
     async function fecthData() {
@@ -38,8 +47,8 @@ const Search = () => {
             name="input"
             id="input"
             title="input"
-            onChange={(e) => {
-              handleSearchInput(e);
+            onChange={(event) => {
+              handleSearchInput(event);
             }}
           ></input>
         </div>

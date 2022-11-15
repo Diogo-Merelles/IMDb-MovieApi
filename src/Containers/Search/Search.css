@@ -8,13 +8,15 @@
 
 }
 .searchBar {
-    
+    display: flex;
+    margin-right: 33em;
 }
 .searchInput {
-    margin-top: 3em;
-    width: 14em;
+    display: flex;
+    margin-top: 2em;
+    width: 24em;
     border-radius: 8px;
-    height: 1.5em;
+    height: 2.5em;
     border: 2px solid lightslategrey;
     
 }
