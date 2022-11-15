@@ -1,3 +1,9 @@
+## Movie App with IMDb API
+
+# Movie App where you can find in the homepage the most recent popular movies, with a search engine using the IMDb API.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
