@@ -33,7 +33,7 @@ const Search = () => {
         <div className="searchBar">
           <input
             className="searchInput"
-            placeholder="Type your movie"
+            placeholder="Search any movie!"
             type="text"
             name="input"
             id="input"

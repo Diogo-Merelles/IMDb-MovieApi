@@ -12,6 +12,11 @@
 }
 .searchInput {
     margin-top: 3em;
+    width: 14em;
+    border-radius: 8px;
+    height: 1.5em;
+    border: 2px solid lightslategrey;
+    
 }
 
 .leftside{
