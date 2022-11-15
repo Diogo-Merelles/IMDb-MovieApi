@@ -15,31 +15,33 @@
     width: 12em;
     cursor:pointer;
     margin-top: 1em;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 4px;
 }
 
-.movieSmallImage:hover {
+.movieCard:hover {
     transition: 0.5s;
-    width: 11em;
+    transform: scale(1.1);
 }
 
 
 .leftSide{
     width: 100vw;
-    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     background-color: whitesmoke; 
     overflow: scroll;
-    margin-top: 2em;
-
+    margin-top: 3em;
 }
 
 .rightSide{
     width: 35vw;
     background-color: whitesmoke;
     padding-bottom: 1em; 
+    margin-top: 1.5em;
 }
 
 .homeLoadingDesign {

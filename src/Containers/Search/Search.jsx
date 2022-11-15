@@ -44,8 +44,8 @@ const Search = () => {
           ></input>
         </div>
       </div>
-      <div className="showmovies">
       <div className="rightside">
+        <div className="showContainer">
         <div className="searchResults">
           {movies.map((movie) => {
             return (
@@ -56,8 +56,8 @@ const Search = () => {
                     src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
                     alt={movie.title}
                   />
+                <div>{movie.title}</div>
                 </div>
-                <div>{movie.name}</div>
               </div>
             );
           })}

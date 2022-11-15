@@ -1,11 +1,15 @@
-
 .searchPage {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke; 
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
 
 }
-
+.searchBar {
+    
+}
 .searchInput {
     margin-top: 3em;
 }
@@ -18,7 +22,7 @@
 }
 
 .searchResults {
-    width: 100vw;
+    width: 72vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -26,11 +30,7 @@
     justify-content: center;
     background-color: whitesmoke; 
     overflow: scroll;
-}
-
-.rightside {
-    display: flex;
-
+    margin-top: 3em;
 }
 
 .movieSmallImage{
@@ -46,11 +46,16 @@
 
 .clickMovie {
     display: flex;
+    justify-content: center;
+    align-self: flex-start;
     width: 30vw;
-    height: 60vh;
+    margin-top: 1em;
+
 }
 
-.showmovies {
+.showContainer {
     display: flex;
     height: 100vh;
+    flex-direction: row;
+
 }
