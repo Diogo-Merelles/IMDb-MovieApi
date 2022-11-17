@@ -36,7 +36,6 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: whitesmoke; 
-    overflow: scroll;
     margin-top: 3em;
 }
 
